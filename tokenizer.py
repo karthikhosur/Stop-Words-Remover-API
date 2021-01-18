@@ -9,8 +9,8 @@ def text_tokenizer(introduction_file_text):
         if not token.is_stop and not token.is_punct:
             if token.pos_ == "NOUN" or token.pos_ == "PROPN" :
                 if token.lemma_ not in converted_list:
-                    converted_list.append(token) 
-                    converted_text += " "+token
+                    converted_list.append(token.text) 
+                    converted_text += " "+token.text
 
     reduced = int(len(introduction_file_doc) - len(converted_list))
     return converted_list, converted_text, reduced 
