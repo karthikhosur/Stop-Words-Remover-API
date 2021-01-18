@@ -1,9 +1,11 @@
-# Extract-Blogs-api
-Flask code to deploy an API that translates Text Accurately to any of the 103 languages
+# Stop Words Remover
+Flask code to deploy an API to remove stop words and extract nouns, keywords or important words for different applications like search.
+
+
 
 Translations between the following languages are supported:
 
-This is a source code of an API that you can find here (free plan available): https://nouns-extractor.herokuapp.com/
+This is a source code of an API that you can find here (free plan available): https://rapidapi.com/karthikhosur15/api/stop-words-remover
 
 
 
